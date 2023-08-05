@@ -1,5 +1,13 @@
 plugins {
     id("java")
+    idea
+}
+
+idea {
+    module {
+        isDownloadSources = true
+        isDownloadJavadoc = true
+    }
 }
 
 dependencies {
